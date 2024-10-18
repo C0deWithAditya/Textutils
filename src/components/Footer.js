@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link } from 'react-router-dom';
+/* import {a } from 'react-router-dom'; */
 export default function Footer() {
 return (
     <>
@@ -28,34 +28,34 @@ return (
           Products
         </h6>
         <p>
-          <Link to="\" className="text-reset">Edit</Link>
+          <a href="#" className="text-reset">Edit</a>
         </p>
         <p>
-          <Link to="\" className="text-reset">Update</Link>
+          <a href="#" className="text-reset">Update</a>
         </p>
         <p>
-          <Link to="\" className="text-reset">Delete</Link>
+          <a href="#" className="text-reset">Delete</a>
         </p>
         <p>
-          <Link to="\" className="text-reset">Type</Link>
+          <a href="#" className="text-reset">Type</a>
         </p>
       </div>
       <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
         
         <h6 className="text-uppercase fw-bold mb-4">
-          Useful links
+          Useful as
         </h6>
         <p>
-          <Link to="\" className="text-reset">About</Link>
+          <a href="#" className="text-reset">About</a>
         </p>
         <p>
-          <Link to="\" className="text-reset">Settings</Link>
+          <a href="#" className="text-reset">Settings</a>
         </p>
         <p>
-          <Link to="\" className="text-reset">Free</Link>
+          <a href="#" className="text-reset">Free</a>
         </p>
         <p>
-          <Link to="\" className="text-reset">Help</Link>
+          <a href="#" className="text-reset">Help</a>
         </p>
       </div>
       <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
@@ -74,7 +74,7 @@ return (
 </section>
 <div className="text-center p-4" style={{Backgroundcolor: 'gray'}}>
   © 2021 Copyright:
-  <Link className="text-reset fw-bold" to="https://github.com/C0deWithAditya">C0deWithAditya.com</Link>
+  <a className="text-reset fw-bold" to="https://github.com/C0deWithAditya">C0deWithAditya.com</a>
 </div>
 </div> 
 </footer>
