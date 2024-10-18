@@ -1,5 +1,4 @@
 import React from 'react';
-/* import {a } from 'react-router-dom'; */
 export default function Footer() {
 return (
     <>

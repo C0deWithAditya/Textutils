@@ -2,16 +2,10 @@
 import './App.css';
 import Navbar from './components/Navbar'
 import Form from './components/Form1';
-/* import About from './components/About'; */
 import React, { useState } from 'react';
 import Alert from './components/Alert';
 import Footer from './components/Footer';
-/* import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-} from "react-router-dom";
- */
+
 
 
 function App()
@@ -57,11 +51,10 @@ const showAlert=(mesage,type)=>{
   }
   return (
     <>
-
-      <Navbar  title="Words Counter" about="About" mode={mode} toggleMode={toggleMode}/>
+  <Navbar  title="Words Counter" about="About" mode={mode} toggleMode={toggleMode}/>
         <Alert alert={alert}/>
         <div className="container " style={{marginLeft:'35px'}}>
-                  <Form showAlert={showAlert} mode={mode} heading="Try TextUtils -Word Counter | Character Counter"/>
+        <Form showAlert={showAlert} mode={mode} heading="Try TextUtils -Word Counter | Character Counter"/>
         <Footer /> 
         </div>
 
