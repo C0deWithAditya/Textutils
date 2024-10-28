@@ -1,6 +1,7 @@
 # Getting Started with Create React App
+Published 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+(https://c0dewithaditya.github.io/textutils/)
 
 ## Available Scripts
 
